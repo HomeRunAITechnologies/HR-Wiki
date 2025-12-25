@@ -66,7 +66,7 @@ DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=wiki
 DB_USERNAME=root # Your database username
-DB_PASSWORD=Katie1218Heather911 # Your database password
+DB_PASSWORD= password # Your database password
 ```
 
 **Important:** Ensure the `DB_DATABASE` (e.g., `wiki`) exists on your MySQL/MariaDB server and that `DB_USERNAME` has full privileges on this database.

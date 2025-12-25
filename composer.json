@@ -1,0 +1,25 @@
+{
+    "name": "gemini/wiki",
+    "description": "A collaborative wiki application built with PHP.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gemini",
+            "email": "gemini@example.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "paigejulianne/picoorm": "*",
+        "vlucas/phpdotenv": "*",
+        "nikic/fast-route": "*",
+        "erusev/parsedown": "*",
+        "ezyang/htmlpurifier": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WikiApp\\": "src/"
+        }
+    }
+}
